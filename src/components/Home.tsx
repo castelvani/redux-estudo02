@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import api from "../service/api";
 
 import { addNewUser } from "../store/modules/user/actions";
 
-import { IState, IUser } from "../store/modules/user/types";
+import { IUser } from "../store/modules/user/types";
 
 // import { Container } from './styles';
 
